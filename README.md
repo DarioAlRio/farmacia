@@ -13,6 +13,14 @@ Web de demostración para enseñar al titular. Una sola página estática (`inde
 - **Reseñas:** solo las de 5 ★, con el texto literal de Google (vía la ficha de Maps y el agregador tofarmacias.com, que replica las reseñas de Google). Se ha omitido la única negativa (1 ★) y una de 2018 que mezclaba una queja.
 - **Servicios:** atributos de la ficha de Maps (acceso para silla de ruedas, pago con móvil o tarjeta) y lo que repiten las reseñas (encargan el medicamento si no lo tienen, asesoramiento). «Dermocosmética» se deduce del escaparate. La entrega a domicilio aparece en Maps pero se ha quitado de la web a petición.
 
+- **Logos de marcas:** `img/marcas/`. Oficiales: La Roche-Posay, Bioderma, Eucerin, CeraVe, Avène, Vichy y Nuxe de Wikimedia Commons; ISDIN, Heliocare, Uriage y Mustela de sus webs oficiales (a ISDIN se le ha quitado el eslogan). Originales en `img/_original/marcas/`. Son las marcas de dermofarmacia más comunes, **no** confirmadas con la farmacia.
+
+## Secciones con contenido provisional
+
+- **Equipo:** dos huecos rayados con la etiqueta «Hueco para foto» (equipo en el mostrador y retrato de Arturo) y un texto de Arturo marcado como provisional.
+- **Marcas:** sustituir por las que venda de verdad.
+- **Preguntas frecuentes:** respuestas genéricas; revisarlas con el titular. Llevan datos estructurados FAQPage para Google.
+
 ## Estado abierto/cerrado
 
 `js/site.js` calcula con la hora del dispositivo del visitante si la farmacia está abierta, marca el día de hoy en la tabla de horario y se actualiza cada minuto. No contempla festivos ni guardias.
