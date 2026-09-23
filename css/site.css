@@ -163,11 +163,15 @@ p { margin: 0; }
 .svc--feature h3 { font-family: var(--f-display); font-weight: 400; font-size: clamp(1.6rem, 1.2rem + 1.3vw, 2.2rem); color: #fff; }
 .svc--feature p { color: rgba(255,255,255,.88); font-size: 1.05rem; max-width: 34ch; }
 .svc--feature .svc__n { color: #f1c7b1; }
+.svc--wide { grid-column: span 2; }
 @media (max-width: 900px) {
   .services { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .svc--feature { grid-column: 1 / -1; grid-row: auto; min-height: 0; }
 }
-@media (max-width: 560px) { .services { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .services { grid-template-columns: 1fr; }
+  .svc--wide { grid-column: auto; }
+}
 
 /* Banda de foto */
 .band { position: relative; }
