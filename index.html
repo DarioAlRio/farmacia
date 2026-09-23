@@ -38,6 +38,62 @@
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "37" }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puedo recoger la receta electrónica solo con la tarjeta sanitaria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Con tu tarjeta sanitaria accedemos a los medicamentos que tienes prescritos en receta electrónica. No hace falta traer papel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo recoger la medicación de un familiar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, trayendo la tarjeta sanitaria de la persona a la que pertenece el tratamiento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Me guardáis un medicamento o lo pedís si no lo tenéis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claro. Llámanos o pásate y te lo reservamos. Si no lo tenemos en ese momento, lo encargamos y te decimos cuándo puedes venir a recogerlo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Aceptáis tarjeta o pago con el móvil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Puedes pagar con tarjeta de crédito o débito y con el móvil (pago sin contacto)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Abrís los domingos y festivos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los domingos estamos cerrados. Para festivos y guardias, llámanos antes de venir o consulta las farmacias de guardia de tu zona."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se puede entrar con silla de ruedas o carrito?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. La entrada tiene rampa y pasamanos, y está a cubierto bajo los soportales."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -51,7 +107,9 @@
     <nav class="nav" aria-label="Principal">
       <ul>
         <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#equipo">Equipo</a></li>
         <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#preguntas">Preguntas</a></li>
         <li><a href="#horario">Horario</a></li>
         <li><a href="#visitanos">Cómo llegar</a></li>
       </ul>
@@ -138,6 +196,42 @@
     </div>
   </section>
 
+  <!-- Equipo -->
+  <section class="section" id="equipo" aria-labelledby="t-equipo">
+    <div class="wrap team">
+      <div class="team__photos">
+        <div class="ph ph--team" role="img" aria-label="Espacio reservado para la foto del equipo">
+          <svg class="ph__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3 7.2 5H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.2L15 3zm3 5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg>
+          <span class="ph__badge">Hueco para foto</span>
+          <strong class="ph__title">Foto del equipo en el mostrador</strong>
+          <span class="ph__hint">Todo el equipo con bata, sonriendo</span>
+        </div>
+        <div class="ph ph--portrait" role="img" aria-label="Espacio reservado para el retrato de Arturo">
+          <svg class="ph__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 2c-4.4 0-8 2.2-8 5v2h16v-2c0-2.8-3.6-5-8-5z"/></svg>
+          <span class="ph__badge">Hueco para foto</span>
+          <strong class="ph__title">Retrato de Arturo</strong>
+          <span class="ph__hint">Vertical · plano medio</span>
+        </div>
+      </div>
+
+      <div class="team__copy">
+        <header class="sec-head">
+          <p class="eyebrow">Quiénes somos</p>
+          <h2 id="t-equipo">Las caras que te atienden cada día</h2>
+        </header>
+        <p class="draft-tag">Texto provisional · a redactar con Arturo</p>
+        <blockquote class="letter">
+          <p>Soy Arturo Martínez Padial, farmacéutico titular de esta farmacia. Mi compromiso con Palomeras Bajas es sencillo: que nadie se vaya sin su tratamiento y que siempre encuentres a alguien dispuesto a escucharte.</p>
+          <p>Detrás del mostrador hay un equipo que conoce a sus vecinos por su nombre. Si tienes una duda, por pequeña que sea, pregúntanos: para eso estamos.</p>
+          <footer class="letter__sign">
+            <span class="letter__name">Arturo Martínez Padial</span>
+            <span class="letter__role">Farmacéutico titular</span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
   <!-- Reseñas -->
   <section class="section section--tint" id="resenas" aria-labelledby="t-resenas">
     <div class="wrap">
@@ -193,6 +287,67 @@
           <span class="review--cta__t">Lee las 37 reseñas en Google</span>
           <span class="review--cta__a" aria-hidden="true">→</span>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marcas -->
+  <section class="section brands" aria-labelledby="t-marcas">
+    <div class="wrap">
+      <header class="sec-head sec-head--center">
+        <p class="eyebrow">Dermocosmética</p>
+        <h2 id="t-marcas">Las marcas que ya conoces</h2>
+      </header>
+      <ul class="brands__list">
+        <li><img src="img/marcas/isdin.svg" alt="ISDIN" width="103" height="20" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/la-roche-posay.svg" alt="La Roche-Posay" width="284" height="122" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/avene.png" alt="Eau Thermale Avène" width="560" height="230" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/vichy.jpg" alt="Vichy Laboratoires" width="560" height="180" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/bioderma.svg" alt="Bioderma" width="232" height="47" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/heliocare.svg" alt="Heliocare" width="404" height="32" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/eucerin.svg" alt="Eucerin" width="240" height="98" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/cerave.png" alt="CeraVe" width="560" height="212" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/uriage.svg" alt="Uriage" width="123" height="38" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/mustela.svg" alt="Mustela" width="95" height="30" loading="lazy" decoding="async"></li>
+        <li><img src="img/marcas/nuxe.png" alt="Nuxe" width="392" height="168" loading="lazy" decoding="async"></li>
+      </ul>
+      <p class="brands__note">¿Buscas otra marca? Pregúntanos y te la pedimos.</p>
+    </div>
+  </section>
+
+  <!-- Preguntas frecuentes -->
+  <section class="section section--soft" id="preguntas" aria-labelledby="t-faq">
+    <div class="wrap faq">
+      <header class="sec-head">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2 id="t-faq">Lo que más nos preguntáis</h2>
+        <p class="faq__aside">¿No encuentras tu respuesta? Llámanos al <a href="tel:+34915079286">915 07 92 86</a>.</p>
+      </header>
+      <div class="faq__list">
+        <details>
+          <summary>¿Puedo recoger la receta electrónica solo con la tarjeta sanitaria?</summary>
+          <p>Sí. Con tu tarjeta sanitaria accedemos a los medicamentos que tienes prescritos en receta electrónica. No hace falta traer papel.</p>
+        </details>
+        <details>
+          <summary>¿Puedo recoger la medicación de un familiar?</summary>
+          <p>Sí, trayendo la tarjeta sanitaria de la persona a la que pertenece el tratamiento.</p>
+        </details>
+        <details>
+          <summary>¿Me guardáis un medicamento o lo pedís si no lo tenéis?</summary>
+          <p>Claro. Llámanos o pásate y te lo reservamos. Si no lo tenemos en ese momento, lo encargamos y te decimos cuándo puedes venir a recogerlo.</p>
+        </details>
+        <details>
+          <summary>¿Aceptáis tarjeta o pago con el móvil?</summary>
+          <p>Sí. Puedes pagar con tarjeta de crédito o débito y con el móvil (pago sin contacto).</p>
+        </details>
+        <details>
+          <summary>¿Abrís los domingos y festivos?</summary>
+          <p>Los domingos estamos cerrados. Para festivos y guardias, llámanos antes de venir o consulta las farmacias de guardia de tu zona.</p>
+        </details>
+        <details>
+          <summary>¿Se puede entrar con silla de ruedas o carrito?</summary>
+          <p>Sí. La entrada tiene rampa y pasamanos, y está a cubierto bajo los soportales.</p>
+        </details>
       </div>
     </div>
   </section>
