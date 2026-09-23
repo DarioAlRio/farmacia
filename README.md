@@ -11,7 +11,7 @@ Web de demostración para enseñar al titular. Una sola página estática (`inde
 
 - **Fotos:** `img/fachada.*` y `img/exterior.*` son las dos fotos propias de la ficha de Google Maps (la de fachada es la misma que usa su Google Sites). Originales intactos en `img/_original/`. La del exterior es un recorte del panorama 360°.
 - **Reseñas:** solo las de 5 ★, con el texto literal de Google (vía la ficha de Maps y el agregador tofarmacias.com, que replica las reseñas de Google). Se ha omitido la única negativa (1 ★) y una de 2018 que mezclaba una queja.
-- **Servicios:** atributos de la ficha de Maps (a domicilio, acceso para silla de ruedas, pago con móvil o tarjeta) y lo que repiten las reseñas (encargan el medicamento si no lo tienen, asesoramiento). «Dermocosmética» se deduce del escaparate.
+- **Servicios:** atributos de la ficha de Maps (acceso para silla de ruedas, pago con móvil o tarjeta) y lo que repiten las reseñas (encargan el medicamento si no lo tienen, asesoramiento). «Dermocosmética» se deduce del escaparate. La entrega a domicilio aparece en Maps pero se ha quitado de la web a petición.
 
 ## Estado abierto/cerrado
 
